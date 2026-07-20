@@ -6,4 +6,3 @@ requests>=2.31.0
 selenium>=4.15.0
 webdriver-manager>=4.0.0
 curl_cffi>=0.6.0
-amazoncaptcha>=0.5.0
