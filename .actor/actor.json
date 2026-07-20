@@ -1,0 +1,22 @@
+{
+  "actorSpecification": 1,
+  "name": "ebay-us-scraper",
+  "title": "Seller Pilot \u2014 eBay US Scraper",
+  "description": "Production eBay.com scraper for Seller Pilot Hub (price, stock, title).",
+  "version": "0.1.0",
+  "meta": {
+    "vendor": "ebayus",
+    "region": "USA",
+    "host": "ebay.com",
+    "sellerPilotHub": true
+  },
+  "input": "./input_schema.json",
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "title": "Scrape results",
+      "description": "Seller Pilot Hub compatible ScrapeResult rows."
+    }
+  },
+  "dockerfile": "./Dockerfile"
+}

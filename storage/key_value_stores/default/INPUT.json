@@ -1,0 +1,7 @@
+{
+  "url": "https://www.ebay.com/itm/1234567890",
+  "region": "USA",
+  "proxyUrls": [],
+  "timeoutSecs": 90,
+  "maxRetries": 2
+}
