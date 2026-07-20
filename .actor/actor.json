@@ -1,15 +1,18 @@
 {
   "actorSpecification": 1,
   "name": "ebay-us-scraper",
-  "title": "Seller Pilot — eBay US Scraper",
-  "description": "Production eBay.com scraper for Seller Pilot Hub (price, stock, title).",
+  "title": "DataHarvest — eBay US Scraper",
+  "description": "Scrapes eBay.com listings for price, stock, and title. Built for DataHarvest.",
   "version": "0.1.0",
   "meta": {
     "vendor": "ebayus",
     "region": "USA",
     "host": "ebay.com",
-    "sellerPilotHub": true
+    "dataHarvest": true
   },
   "input": "./input_schema.json",
-  "dockerfile": "./Dockerfile"
+  "dockerfile": "./Dockerfile",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  }
 }
